@@ -1,0 +1,120 @@
+body {
+    margin: 3% 7%;
+    background-image: url("../images/bg-desktop.svg");
+    background-color: #634CAB;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    color: white;
+}
+
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    width: fit-content;
+    padding: 10px 50px;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow:0px 0px 10px 10px rgba(0, 0, 0, 0.137);
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.747);
+}
+
+.top-container {
+    position: relative;
+    height: 71.1px;
+    margin-bottom: 3%;
+}
+
+.logo {
+    /* width: 5%; */
+    height: auto;
+    margin: 0;
+    float: left;
+}
+
+.name {
+    color: red;
+    margin: 0;
+    position: absolute;
+    top: 21px;
+    left: 81px;
+}
+
+.mockup {
+    width: 50%;
+    height: 50%;
+    float: left;
+}
+
+.register {
+    color: #634CAB;
+}
+
+.register:hover {
+    background-color: #DB85E2;
+}
+
+.middle-container {
+    position: relative;
+    width: fit-content;
+    margin: 0px;
+    display: inline-block;
+}
+
+.right-container {
+    /* background-color: yellow; */
+    font-size: 24px;
+    font-weight: 900;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 53%;
+}
+
+.fans {
+    margin: 0;
+}
+
+
+.bottom-container {
+    clear: left;
+    text-align: right;
+    /* filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%); */
+    /* filter changes the color of svg file (not the empty spaces but the drawing) */
+    /* get this code from hex to css filter color converter */
+    margin-right: 18px;
+    word-spacing: 12px;
+}
+
+.facebook {
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
+    border-radius: 50%;
+    height: 3.5%;
+    width: 3.5%;
+}
+
+.instagram {
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
+    border-radius: 50%;
+    height: 3.5%;
+    width: 3.5%;
+}
+
+.twitter {
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
+    border-radius: 50%;
+    height: 3.5%;
+    width: 3.5%;
+}
+
+.facebook:hover, .twitter:hover, .instagram:hover{
+    filter: invert(43%) sepia(60%) saturate(880%) hue-rotate(241deg) brightness(83%) contrast(83%);
+}
